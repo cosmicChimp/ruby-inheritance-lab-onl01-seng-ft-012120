@@ -6,7 +6,7 @@ class Student < User
   end
 
   def teach 
-    KNOWLEDGE
+    return KNOWLEDGE
   end
 
 end
