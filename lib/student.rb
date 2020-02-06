@@ -5,5 +5,8 @@ class Student < User
     @knowledge = []
   end
 
+  def teach 
+    self.knowledge
+  end
 
 end
